@@ -1,0 +1,31 @@
+.head1 {
+    color: darkgreen;
+  }
+h1, h2 {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.image{
+  float:left;
+
+}
+div > img{
+  margin: 20px;
+}
+p {
+  line-height: 25px;
+}
+.report{
+  font-size: 25px;
+
+}
+#pcaps{
+  text-transform: uppercase;
+}
+a:link{
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
