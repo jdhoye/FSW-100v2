@@ -1,0 +1,35 @@
+
+.box1,.box2,.box3,.box4,.box5,.box6,.box7,.box8,.box9{
+    height: 60px;
+    margin: 5px;
+    white-space: nowrap;
+}
+.box1{
+    background-color: #F5C6D6;
+}
+.box2, .box3, .box4, .box5{
+    background-color: #EE2E84;
+}
+.box6, .box7{
+    background-color: #85CFD8;
+}
+.box8{
+    background-color: #8DC63F;
+}
+.box9{
+    background-color: #E76E34;
+}
+@media (max-width: 768px) {
+.container2{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+.container3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.container4 {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+}
